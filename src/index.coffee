@@ -4,7 +4,7 @@ sysPath = require 'path'
 module.exports = class UnderscoreCompiler
   brunchPlugin: yes
   type: 'template'
-  extension: 'jst'
+  extension: 'ejs'
 
   constructor: (@config) ->
     null
